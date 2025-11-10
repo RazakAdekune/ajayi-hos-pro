@@ -1,0 +1,143 @@
+  body {
+       font-family: 'Montserrat', sans-serif
+    }
+
+    /* Top bar */
+    .top-bar {
+      background: #007b9e;
+      color: white;
+      font-size: 14px;
+      padding: 8px 0;
+    }
+
+    .top-bar a {
+      color: white;
+      text-decoration: none;
+    }
+
+    /* Navbar */
+    .navbar {
+      background: white;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+       padding-top: 0.1rem;  /* reduce vertical space */
+       padding-bottom: 0.1rem;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      color: #007b9e;
+      font-size: 1.9rem;
+      font-family: 'Concert One', sans-serif;
+    }
+
+    .navbar-brand span {
+      color: #333;
+    }
+
+    /* Hero section */
+    .hero {
+      background: url('images/WhatsApp\ Image\ 2025-10-28\ at\ 13.17.56_53313f58.jpg') center/cover no-repeat;
+      color: white;
+      text-align: left;
+      min-height: 90vh;
+      display: flex;
+      align-items: center;
+      position: relative;
+    }
+
+    .hero::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 83, 107, 0.6);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 600px;
+      padding: 0 20px;
+      margin-left: 50px;
+    }
+
+    .hero h1 {
+      font-weight: 800;
+      font-size: 3rem;
+      background-color: rgba(8, 138, 174, 0.3);
+      width: 350px;
+      margin-bottom: 20px;
+    }
+
+    .hero h3 {
+      background-color: rgba(57, 58, 59, 0.3);
+      width: 85%; 
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero .btn{
+        color: #007b9e;
+    }
+
+    .btn-theme {
+      background-color: #007b9e;
+      color: white;
+      border-radius: 30px;
+      padding: 10px 25px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+
+    .btn-theme:hover {
+      background-color: #005f77;
+      color: white;
+    }
+
+    /* About Section */
+    #about {
+      padding: 80px 0;
+    }
+
+    #about h2 {
+      color: #007b9e;
+      font-weight: bold;
+    }
+
+    #about p {
+      color: #555;
+    }
+
+    /* Services */
+    .service {
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 10px;
+      background-color: #f8f9fa;
+      transition: all 0.3s ease;
+    }
+
+    .service:hover {
+      background-color: #e3f4f9;
+      transform: translateY(-5px);
+    }
+
+    .service i {
+      font-size: 2.5rem;
+      color: #007b9e;
+      margin-bottom: 15px;
+    }
+
+    /* Footer */
+    footer {
+      background: #007b9e;
+      color: white;
+      padding: 40px 0;
+      text-align: center;
+    }
